@@ -47,6 +47,22 @@ header {
 .navigation a:hover {
     color: #8B5CF6;
 }
+
+.button-talk {
+    background: bisque;
+    color: black;
+    font-weight: 600;
+    padding: 9px 24px;
+    border-radius: 19px;
+    text-decoration: none;
+    transition: background 0.23s;
+    box-shadow: 0px 2px 18px 0px black;
+    margin-left: 24px;
+    font-size: 0.98em;
+}
+.button-talk:hover {
+    background: black;
+}
 .home {
     display: flex;
     align-items: center;
@@ -96,8 +112,8 @@ header {
     font-weight: 500;
     padding: 10px 28px;
     box-shadow:
-      0 4px 6px rgba(139, 92, 246, 0.6), /* darker shadow for depth */
-      0 0 12px rgba(139, 92, 246, 0.6); /* subtle glow */
+      0 4px 6px rgba(139, 92, 246, 0.6),
+      0 0 12px rgba(139, 92, 246, 0.6); 
     letter-spacing: 1px;
     transition:
       background 0.22s ease,
@@ -118,7 +134,7 @@ header {
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     margin-left: 30px;
     border: 5px solid #b92910ad;
     box-shadow: 0 4px 24px 0 #212121;
@@ -168,7 +184,7 @@ header {
 };
 }
 .logo span {
-    color: #8B5CF6;
+    color: #86;
     font-size: 1.6em;
     font-weight: 700;
     letter-spacing: 2px;
